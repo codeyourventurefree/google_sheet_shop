@@ -1,11 +1,20 @@
 {
-  "name": "my-app",
+  "name": "google_sheet_shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "googleapis": "27",
+    "immutable": "^3.8.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.1"
   },
   "scripts": {
     "start": "react-scripts start",
