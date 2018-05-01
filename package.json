@@ -3,18 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "googleapis": "27",
+    "googleapis": "^29.0.0",
     "immutable": "^3.8.2",
+    "postmark": "^1.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-load-script": "^0.0.6",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
+    "react-typeform-embed": "^0.1.5",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
     "semantic-ui-css": "^2.3.1",
-    "semantic-ui-react": "^0.79.1"
+    "semantic-ui-react": "^0.79.1",
+    "whatwg-fetch": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
