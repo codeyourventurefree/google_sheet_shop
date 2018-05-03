@@ -43,7 +43,7 @@ class ProductGrid extends Component {
 					columns={(layout['itemPerRow'] !== undefined && layout['itemPereRow'] !== null) ? layout['itemPerRow'] : 3 } 
 					style={styles.wrapper}
 				>
-					{(products !== undefined) ? products.map((item,key)=><Item key={key} item={item} layout={layout}/>) : <Loader/>}
+					{(products !== undefined) ? products.map((item,key)=><Item key={key} item={item} layout={layout}/>) : <Loader active/>}
 				</Grid>
 			</div>
 		)

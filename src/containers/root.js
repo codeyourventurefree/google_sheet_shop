@@ -35,7 +35,7 @@ class Root extends Component{
 			flexDirection : 'column',
 			alignItems : 'center',
 			justifyContent : 'space-between',
-			width : '75%',
+			width : '100%',
 			backgroundColor : 'white'	
 		};
 		Object.keys(layout).map((property)=>{
@@ -59,7 +59,9 @@ class Root extends Component{
 						mainStyle.backgroundColor = thisValue;
 					break;
 					case 'mainWidth':
-						mainStyle.width = thisValue+'%';
+						if( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))  ) {
+							mainStyle.width = thisValue+'%';
+						}
 					break;
 					case 'mainOpacity':
 						mainStyle.opacity = thisValue;
