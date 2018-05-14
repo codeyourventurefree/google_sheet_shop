@@ -7,6 +7,14 @@ Disclaimer: The whole project is still work-in-progress. The payment gateway and
 For detail of the development progress, please check out the following Medium post :
 https://medium.com/@codeyourventurefree/build-an-online-store-for-free-with-google-sheet-part-1-wip-fcaa72834d22
 
+# Demo
+
+Online Store : http://google-sheet-shop-dev.s3-website-ap-southeast-1.amazonaws.com/
+
+Layout Setting : https://drive.google.com/open?id=1tQI0Z3_Tk1YtTrtBESHgf4lKgYxKx1eIGYOVNh9-O_k
+
+Products : https://drive.google.com/open?id=1vcZ7BNqyAOA5AZWm7oyhMPy1Bh3pGP-atUfw13db3Yw
+
 # Installation
 
 You can watch this YouTube Video for the installation demo :
