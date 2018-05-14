@@ -10,6 +10,7 @@ https://medium.com/@codeyourventurefree/build-an-online-store-for-free-with-goog
 # Installation
 
 You can watch this YouTube Video for the installation demo :
+
 [![Video](https://img.youtube.com/vi/1GfxFFv10iQ/0.jpg)](https://youtu.be/1GfxFFv10iQ)
 
 ## Step 1, register a Google and AWS account. 
